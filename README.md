@@ -36,7 +36,7 @@ npm start
 
 It will start a web server available in your browser at http://localhost:3000.
 
-2. Create a user
+2. Create a user - Option 1
 
 Send a POST (REST protocol) request using terminal:
 
@@ -52,6 +52,10 @@ It will output:
 ```
 {"status":"success","msg":"OK"}
 ```
+3. Create a user - Option 2
+
+You can just use the form to create an user. A response will be printed in the console
+
 
 Another way to test your REST API is to use [Postman](https://www.postman.com/).
 
@@ -67,3 +71,9 @@ npm test
 
 Sergei Kudinov   
 sergei@adaltas.com
+
+## Contributor
+
+Adama KOUYATE
+Djéha N'GORAN
+Ronel NJOGANG

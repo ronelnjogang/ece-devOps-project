@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        color: #333;
+        background-color: #f7f7f7;
+      }
+
+      h1 {
+        font-size: 2em;
+        margin-top: 50px;
+        text-align: center;
+      }
+
+      button {
+        display: block;
+        margin: 30px auto;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        background-color: #4CAF50;
+        color: #fff;
+        font-size: 1.2em;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #3e8e41;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello <%= name %>!</h1>
+    <button onclick="redirectToRoute()">Add User</button>
+  </body>
+  <script>
+    function redirectToRoute() {
+      window.location.href = "/addUser";
+    }
+    </script>
+</html>
