@@ -1,3 +1,8 @@
+## NOTE
+
+This project is public because while private, we got an error with artefact creation, and to fix it, we had to turn our project to public
+
+![git issue](./assets/gitIssue.PNG)
 # User API web application
 
 It is a basic NodeJS web application exposing REST API that creates and stores user parameters in [Redis database](https://redis.io/).
@@ -75,5 +80,7 @@ sergei@adaltas.com
 ## Contributor
 
 Adama KOUYATE
+
 Djéha N'GORAN
+
 Ronel NJOGANG
